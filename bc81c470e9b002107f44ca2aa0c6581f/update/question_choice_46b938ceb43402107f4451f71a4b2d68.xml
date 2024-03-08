@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>5</order>
+        <published_ref/>
+        <question display_value="Depot">39b938ceb43402107f4451f71a4b2d18</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 20:34:48</sys_created_on>
+        <sys_id>46b938ceb43402107f4451f71a4b2d68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sydney</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">bc81c470e9b002107f44ca2aa0c6581f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">bc81c470e9b002107f44ca2aa0c6581f</sys_scope>
+        <sys_update_name>question_choice_46b938ceb43402107f4451f71a4b2d68</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 20:34:48</sys_updated_on>
+        <text>Sydney</text>
+        <value>sydney</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=46b938ceb43402107f4451f71a4b2d68"/>
+</record_update>
