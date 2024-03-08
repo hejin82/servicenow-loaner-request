@@ -37,7 +37,8 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>Dear ${requested_for},Requested for: ${requested_for}</p>
-<p>The ${item_type} is pick up for ${depot}.</p>]]></message_html>
+<p>The ${item_type} is pick up for ${depot}.</p>
+<p>${mail_script:x_cdltd_loaner_req_loaner_request_script_1}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Loaner Item Pcik Up</name>
@@ -59,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>480ab3b5b43002107f4451f71a4b2dc4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Loaner Item Pcik Up</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">bc81c470e9b002107f44ca2aa0c6581f</sys_package>
@@ -67,7 +68,7 @@
         <sys_scope display_value="Loaner Request">bc81c470e9b002107f44ca2aa0c6581f</sys_scope>
         <sys_update_name>sysevent_email_action_480ab3b5b43002107f4451f71a4b2dc4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-08 16:38:58</sys_updated_on>
+        <sys_updated_on>2024-03-08 18:48:29</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
